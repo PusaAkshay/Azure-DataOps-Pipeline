@@ -1,0 +1,9 @@
+{
+	"name": "nyc-taxi-data28",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b9cd45f8-5880-4973-80aa-86023683ea9a",
+		"tenantId": "2e185e42-326c-41c0-9226-6487eff382b8"
+	}
+}
