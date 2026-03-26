@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "config": {
+    "bundle": {
+      "name": "nyc_taxi",
+      "target": "prod",
+      "mode": "production",
+      "git": {
+        "bundle_root_path": "."
+      }
+    },
+    "workspace": {
+      "file_path": "/Workspace/Users/singamshiva78_gmail.com#ext#@singamshiva78gmail.onmicrosoft.com/PROD/.bundle/nyc_taxi/prod/files"
+    },
+    "resources": {
+      "jobs": {
+        "nyc_taxi_main_job": {
+          "id": "800629782030862",
+          "relative_path": "resources/jobs/nyc_job.yml"
+        }
+      },
+      "pipelines": {
+        "pipeline_transformed_etl_pipeline": {
+          "id": "cd88c534-7a2f-442f-87bd-30d380cfa692",
+          "relative_path": "resources/pipelines/nyctaxi_pipeline.yml"
+        }
+      },
+      "dashboards": {
+        "my_dashboard": {
+          "id": "01f127bfcb2b1a09b0d99521d2b7ca16",
+          "relative_path": "resources/dashboards/dashboard.yml",
+          "file_path": "src/dashboards/nyc_taxi_dashboard.json"
+        }
+      }
+    },
+    "presets": {
+      "source_linked_deployment": false
+    }
+  },
+  "extra": {}
+}
